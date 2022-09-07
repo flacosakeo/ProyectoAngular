@@ -1,16 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
-  selector: 'app-estudios',
-  templateUrl: './estudios.component.html',
-  styleUrls: ['./estudios.component.css']
+  selector: 'app-educacion',
+  templateUrl: './educacion.component.html',
+  styleUrls: ['./educacion.component.css']
 })
-export class EstudiosComponent {
-nombre:string="Eduardo Rubén Lazarte"
-titulo:string="Analista en Sistemas de Computación"
-fullstackjr:string="Desarrollador Web FullStack Jr."
-
+export class EducacionComponent {
 
   mostrar: boolean= false;
   mensaje_enlace: string= '+'
